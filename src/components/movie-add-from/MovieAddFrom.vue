@@ -41,7 +41,6 @@ export default {
         viewrs: this.viewers,
         favourite: false,
         like: false,
-        id: this.movies?.length + 1,
       };
 
       if (this.name || this.viewrs) {
